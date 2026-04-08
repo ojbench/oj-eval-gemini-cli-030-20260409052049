@@ -2,7 +2,7 @@
 #define JUDGE_H
 #include <vector>
 #include <cmath>
-typedef std::vector<std::vector<double>> IMAGE_T;
+typedef std::vector<std::vector<double> > IMAGE_T;
 int judge(IMAGE_T &img) {
     int min_x = 28, max_x = -1, min_y = 28, max_y = -1;
     for (int y = 0; y < 28; ++y) {
